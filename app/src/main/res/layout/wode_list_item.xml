@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/bg_wodeitem_top_normal"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="快递单号："
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/item_kuaididanhao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="444424321432"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/item_kuaidigongsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="（申通快递）"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:background="@drawable/bg_wode_list"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/item_beizhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="京东MacBookPro"
+                android:maxLines="1"
+                android:textColor="@color/balck"
+                android:textSize="30sp" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/item_date"
+                android:textSize="17sp"
+                android:text="2016-09-23"
+                android:textColor="@color/balck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

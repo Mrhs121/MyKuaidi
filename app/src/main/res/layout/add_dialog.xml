@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:background="#00000000"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="@drawable/bg_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="添加快递"
+                android:textColor="@color/lightgray2"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/dialog_beizhu"
+                android:layout_marginTop="15dp"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:background="@drawable/edit_input_zhijiao"
+                android:textColorHint="@color/gray"
+                android:paddingLeft="10dp"
+                android:hint="请输入备注"/>
+
+            <EditText
+                android:id="@+id/dialog_type"
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:background="@drawable/edit_input_zhijiao"
+                android:textColorHint="@color/gray"
+                android:paddingLeft="10dp"
+                android:hint="请输入快递公司"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/quxiao"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="取消"
+                    android:textColor="@color/gray"
+                    android:background="@drawable/dialog_btn_grayshape"/>
+
+                <Button
+                    android:layout_marginLeft="50dp"
+                    android:id="@+id/queding"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="确定"
+                    android:textColor="@color/blue"
+                    android:background="@drawable/dialog_btn_blueshape"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
