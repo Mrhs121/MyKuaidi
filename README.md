@@ -5,6 +5,9 @@
 * 可以在后台自动更新快递，以及通知快递最新的动态 
 
 ![heheda](https://github.com/Mrhs121/MyKuaidi/blob/master/550%20(1).jpg)
- 
+![heheda](https://github.com/Mrhs121/MyKuaidi/blob/master/550%20(2).jpg)
+![heheda](https://github.com/Mrhs121/MyKuaidi/blob/master/550%20(3).jpg)
+![heheda](https://github.com/Mrhs121/MyKuaidi/blob/master/550.jpg)
+
 ### 欢迎下载及评论
 http://sj.qq.com/myapp/detail.htm?apkName=com.hs.mykuaidi
